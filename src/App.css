@@ -474,7 +474,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.5s ease-in-out;
   opacity: 0;
   width: 100%;
-  padding: 20px;
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .proj-imgbx::before {
+    display: none;
+  }
+  .proj-txtx {
+    opacity: 1; /* 确保文本在移动端始终可见 */
+    position: relative; /* 改为相对定位 */
+    top: auto;
+    left: auto;
+    transform: none;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.7); /* 添加半透明背景 */
+  }
 }
 
 .proj-imgbx:hover .proj-txtx {
