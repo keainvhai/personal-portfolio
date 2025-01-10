@@ -41,8 +41,8 @@ function Projects() {
         "A responsive portfolio website showcasing my projects and skills",
       technologies: ["React", "Vite", "Bootstrap", "Node.js", "CSS"],
       imgUrl: projImg3,
-      githubUrl: "your_portfolio_github_url",
-      demoUrl: "your_portfolio_demo_url",
+      githubUrl: "https://github.com/keainvhai/personal-portfolio",
+      demoUrl: "https://feixue-dev.vercel.app/",
     },
   ];
 
