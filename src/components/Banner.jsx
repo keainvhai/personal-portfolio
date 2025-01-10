@@ -80,7 +80,7 @@ function Banner() {
                           <ArrowRightCircle size={25} />
                         </button>
                       </a>
-                      <a href="/path/to/your/resume.pdf" download>
+                      <a href="/resume.pdf" download>
                         <button className="resume-btn">
                           Download Resume
                           <svg
