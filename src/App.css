@@ -682,3 +682,64 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+/************ testimonial Css ************/
+.testimonial {
+  padding: 80px 0 60px 0;
+  position: relative;
+  background-color: #121212;
+}
+
+.testimonial h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.testimonial p {
+  color: #ccc;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.testimonial-card {
+  background: #151515;
+  border-radius: 30px;
+  padding: 40px;
+  color: #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.testimonial-quote {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+.testimonial-author {
+  font-weight: 600;
+  font-size: 16px;
+  color: #aaa;
+}
+.testimonial-carousel .testimonial-card {
+  margin: 0 20px;
+}
+.testimonial-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+  object-fit: cover;
+  border: 3px solid #fff;
+}
+
+.testimonial-role {
+  font-size: 14px;
+  color: #888;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
